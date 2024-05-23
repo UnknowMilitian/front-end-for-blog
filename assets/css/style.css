@@ -3,10 +3,44 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "mukta";
+  scroll-behavior: smooth;
 }
 
 /* Fonts */
 @font-face {
   font-family: "mukta";
   src: url("../fonts/Mukta-Regular.ttf");
+}
+
+body {
+  background: var(--bg);
+}
+
+section {
+  padding: 0 1rem;
+}
+
+/* Header */
+.container header {
+  position: sticky;
+  top: 1rem;
+  z-index: 10;
+  transition: all 0.2s;
+}
+
+.container header.scrolled {
+  background: #132435;
+}
+
+.container header nav ul li {
+  transition: color 0.2s ease-in-out;
+}
+
+.container header nav ul.ul li:hover {
+  color: var(--text-green);
+}
+/* /Header */
+
+.content {
+  height: 1000vh;
 }
