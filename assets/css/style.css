@@ -17,30 +17,36 @@ body {
 }
 
 section {
-  padding: 0 1rem;
+  padding: 1rem 1rem;
+}
+
+img.full-heart {
+  fill: white;
 }
 
 /* Header */
-.container header {
+header {
   position: sticky;
-  top: 1rem;
+  top: 0;
   z-index: 10;
   transition: all 0.2s;
 }
 
-.container header.scrolled {
-  background: #132435;
+header.scrolled {
+  background: #1e293b;
 }
 
-.container header nav ul li {
+header nav ul li {
   transition: color 0.2s ease-in-out;
 }
 
-.container header nav ul.ul li:hover {
+header nav ul.ul li:hover {
   color: var(--text-green);
 }
 /* /Header */
 
-.content {
-  height: 1000vh;
+/* Blog Cards */
+.blogs .blog-cards .blog-card button svg.heart-full path {
+  fill: rgb(253, 54, 54);
 }
+/* /Blog Cards */
