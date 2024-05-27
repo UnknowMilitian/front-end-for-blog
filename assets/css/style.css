@@ -20,10 +20,6 @@ section {
   padding: 1rem 1rem;
 }
 
-img.full-heart {
-  fill: white;
-}
-
 /* Header */
 header {
   position: sticky;
