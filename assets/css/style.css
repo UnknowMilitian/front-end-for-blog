@@ -20,16 +20,17 @@ section {
   padding: 1rem 1rem;
 }
 
+.pagination-buttons button.active {
+  background-color: #bbf7d0;
+  color: #020617;
+}
+
 /* Header */
 header {
   position: sticky;
   top: 0;
   z-index: 10;
   transition: all 0.2s;
-}
-
-header.scrolled {
-  background: #1e293b;
 }
 
 header nav ul li {
